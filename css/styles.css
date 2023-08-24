@@ -1197,7 +1197,7 @@ body {
 
   @media screen and (min-width: 428px) {
     height: auto;
-    max-width: 408px;
+    width: 408px;
   }
 }
 
