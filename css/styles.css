@@ -40,7 +40,7 @@ img {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: var(--navyblue, #2e2f42);
@@ -107,7 +107,7 @@ body {
 }
 
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -151,7 +151,7 @@ body {
 }
 
 .header-menu-link::after {
-  content: '';
+  content: "";
   border-radius: 2px;
   border: 2px solid transparent;
   height: 4px;
@@ -172,7 +172,7 @@ body {
 }
 
 .menu-active::after {
-  content: '';
+  content: "";
   border: 2px solid var(--ocean);
   border-radius: 2px;
   background-color: var(--ocean);
@@ -462,7 +462,7 @@ body {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -1134,7 +1134,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -1184,7 +1184,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: var(--dairy, #fcfcfc);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
@@ -1197,16 +1197,7 @@ body {
 
   @media screen and (min-width: 428px) {
     height: auto;
-  }
-
-  @media screen and (min-width: 768px) {
-    min-width: 408px;
-    min-height: 584px;
-  }
-
-  @media screen and (min-width: 1158px) {
-    min-width: 408px;
-    min-height: 584px;
+    max-width: 408px;
   }
 }
 
